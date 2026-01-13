@@ -4,61 +4,67 @@
   <img src="GobiPHP/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="GobiPHP Icon" width="128">
 </p>
 
-Application native macOS pour exécuter du code PHP avec coloration syntaxique.
+Native macOS application to execute PHP code with syntax highlighting.
 
-## Fonctionnalités
+---
 
-- Éditeur de code avec coloration syntaxique PHP (mots-clés, variables, chaînes, commentaires, nombres)
-- Exécution du code PHP via le bouton "Exécuter" ou le raccourci **Cmd+Entrée**
-- Affichage du résultat avec mise en évidence des erreurs en rouge
-- Détection automatique de PHP sur le système
-- Message d'aide si PHP n'est pas installé
+Warning: 100% vibe coded application
 
-## Prérequis
+---
 
-- **macOS 13.0** ou supérieur
-- **Xcode 15** ou supérieur (pour compiler)
-- **PHP** installé sur le système
+## Features
 
-### Installation de PHP (si nécessaire)
+- Code editor with PHP syntax highlighting (keywords, variables, strings, comments, numbers)
+- Execute PHP code via the "Execute" button or **Cmd+Enter** shortcut
+- Result display with error highlighting in red
+- Automatic PHP detection on the system
+- Help message if PHP is not installed
 
-Via Homebrew :
+## Requirements
+
+- **macOS 13.0** or higher
+- **Xcode 15** or higher (to compile)
+- **PHP** installed on the system
+
+### Installing PHP (if needed)
+
+Via Homebrew:
 ```bash
 brew install php
 ```
 
-## Compilation et lancement
+## Build and Run
 
-1. Ouvrir le projet dans Xcode :
+1. Open the project in Xcode:
    ```bash
    open GobiPHP.xcodeproj
    ```
 
-2. Compiler et lancer avec **Cmd+R**
+2. Build and run with **Cmd+R**
 
-## Structure du projet
+## Project Structure
 
 ```
 GobiPHP/
-├── GobiPHPApp.swift       # Point d'entrée de l'application
-├── ContentView.swift      # Interface utilisateur (éditeur + résultat)
-├── PHPExecutor.swift      # Logique d'exécution PHP
-├── GobiPHP.entitlements   # Permissions de l'application
-└── Assets.xcassets/       # Ressources (icônes, couleurs)
+├── GobiPHPApp.swift       # Application entry point
+├── ContentView.swift      # User interface (editor + result)
+├── PHPExecutor.swift      # PHP execution logic
+├── GobiPHP.entitlements   # Application permissions
+└── Assets.xcassets/       # Resources (icons, colors)
 ```
 
-## Utilisation
+## Usage
 
-1. Saisir du code PHP dans l'éditeur (sans les balises `<?php ?>`)
-2. Cliquer sur "Exécuter" ou appuyer sur **Cmd+Entrée**
-3. Le résultat s'affiche dans le panneau inférieur
+1. Enter PHP code in the editor (without `<?php ?>` tags)
+2. Click "Execute" or press **Cmd+Enter**
+3. The result appears in the lower panel
 
-### Exemple
+### Example
 
 ```php
 echo "Hello, World!";
 ```
 
-## Licence
+## License
 
 MIT
