@@ -1,5 +1,9 @@
 # GobiPHP
 
+<p align="center">
+  <img src="GobiPHP/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="GobiPHP Icon" width="128">
+</p>
+
 Application native macOS pour exécuter du code PHP avec coloration syntaxique.
 
 ## Fonctionnalités
