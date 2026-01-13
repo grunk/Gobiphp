@@ -4,21 +4,15 @@
   <img src="GobiPHP/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="GobiPHP Icon" width="128">
 </p>
 
-Native macOS application to execute PHP code with syntax highlighting. Basically `php -r` with an UI
+Native macOS application to execute PHP code with syntax highlighting.
 
----
 
-Warning: 100% vibe coded application
+## What it is and what it will never be
 
----
-
-## Features
-
-- Code editor with PHP syntax highlighting (keywords, variables, strings, comments, numbers)
-- Execute PHP code via the "Execute" button or **Cmd+Enter** shortcut
-- Result display with error highlighting in red
-- Automatic PHP detection on the system
-- Help message if PHP is not installed
+- GobiPHP is a stupid simple UI over `php -r` command nothing more.
+- It is not and never will be a php interpreter on it's own
+- It does not handle PHP installation or PHP version for you
+- It is not a good Swift project, in fact i don't know nothing about swift, but claude does 😆
 
 ## Requirements
 
@@ -68,3 +62,9 @@ echo "Hello, World!";
 ## License
 
 MIT
+
+---
+
+⚠️ 100% vibe coded by Claude code. This project let me experiments with vibe coding and agentic stuff.
+
+---
