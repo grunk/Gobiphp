@@ -255,7 +255,6 @@ class PHPTextView: NSTextView {
         guard let textStorage = self.textStorage else { return }
 
         let fullRange = NSRange(location: 0, length: textStorage.length)
-        let text = textStorage.string
 
         // Reset to default color
         textStorage.addAttribute(.foregroundColor, value: NSColor.textColor, range: fullRange)
