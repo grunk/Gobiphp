@@ -4,7 +4,7 @@
   <img src="GobiPHP/Assets.xcassets/AppIcon.appiconset/icon_256.png" alt="GobiPHP Icon" width="128">
 </p>
 
-Native macOS application to execute PHP code with syntax highlighting.
+Native macOS application to execute PHP code with syntax highlighting. Basically `php -r` with an UI
 
 ---
 
